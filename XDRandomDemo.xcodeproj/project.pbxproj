@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E0C87D11DE5340000081AC6 /* XDRandomCutNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0C87D01DE5340000081AC6 /* XDRandomCutNumber.m */; };
 		8E946A291DE4CB430064936B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E946A281DE4CB430064936B /* main.m */; };
 		8E946A2C1DE4CB430064936B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E946A2B1DE4CB430064936B /* AppDelegate.m */; };
 		8E946A2F1DE4CB430064936B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E946A2E1DE4CB430064936B /* ViewController.m */; };
@@ -15,7 +16,6 @@
 		8E946A371DE4CB440064936B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E946A351DE4CB440064936B /* LaunchScreen.storyboard */; };
 		8E946A421DE4CB440064936B /* XDRandomDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E946A411DE4CB440064936B /* XDRandomDemoTests.m */; };
 		8E946A4D1DE4CB440064936B /* XDRandomDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E946A4C1DE4CB440064936B /* XDRandomDemoUITests.m */; };
-		8E946A5D1DE4CC110064936B /* XDRandomCutNumber.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E946A5C1DE4CC110064936B /* XDRandomCutNumber.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E0C87CF1DE5340000081AC6 /* XDRandomCutNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XDRandomCutNumber.h; path = XDRandom/XDRandomCutNumber.h; sourceTree = SOURCE_ROOT; };
+		8E0C87D01DE5340000081AC6 /* XDRandomCutNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XDRandomCutNumber.m; path = XDRandom/XDRandomCutNumber.m; sourceTree = SOURCE_ROOT; };
 		8E946A241DE4CB430064936B /* XDRandomDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XDRandomDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E946A281DE4CB430064936B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		8E946A2A1DE4CB430064936B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -52,8 +54,6 @@
 		8E946A481DE4CB440064936B /* XDRandomDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XDRandomDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E946A4C1DE4CB440064936B /* XDRandomDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XDRandomDemoUITests.m; sourceTree = "<group>"; };
 		8E946A4E1DE4CB440064936B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		8E946A5B1DE4CC110064936B /* XDRandomCutNumber.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XDRandomCutNumber.h; path = XDRandomCutNumber/XDRandomCutNumber.h; sourceTree = SOURCE_ROOT; };
-		8E946A5C1DE4CC110064936B /* XDRandomCutNumber.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XDRandomCutNumber.m; path = XDRandomCutNumber/XDRandomCutNumber.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -147,8 +147,8 @@
 		8E946A5A1DE4CBED0064936B /* XDRandomCutNumber */ = {
 			isa = PBXGroup;
 			children = (
-				8E946A5B1DE4CC110064936B /* XDRandomCutNumber.h */,
-				8E946A5C1DE4CC110064936B /* XDRandomCutNumber.m */,
+				8E0C87CF1DE5340000081AC6 /* XDRandomCutNumber.h */,
+				8E0C87D01DE5340000081AC6 /* XDRandomCutNumber.m */,
 			);
 			name = XDRandomCutNumber;
 			sourceTree = "<group>";
@@ -286,7 +286,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8E946A5D1DE4CC110064936B /* XDRandomCutNumber.m in Sources */,
+				8E0C87D11DE5340000081AC6 /* XDRandomCutNumber.m in Sources */,
 				8E946A2F1DE4CB430064936B /* ViewController.m in Sources */,
 				8E946A2C1DE4CB430064936B /* AppDelegate.m in Sources */,
 				8E946A291DE4CB430064936B /* main.m in Sources */,
